@@ -1,0 +1,46 @@
+ 1.  **create a hidden file or folder? How do I display it in the CLI? 
+
+              YOU  can type:
+
+
+	       touch .ehabHiddenFile.txt
+
+       **creating a hidden folder is:
+
+
+	     mkdir .ehabHiddenFolder
+
+        **to display all:
+
+
+	    ls -a
+
+      ** to display only the hidden files, we type: 
+	
+	ls -d .*
+
+      **  To make hidden non-hidden we can type:
+
+	mv .ehabHidden myNonHidden
+
+	
+ 2. 
+       **create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+          YOU  can type:
+
+	    mkdir -p Users/myusername/these/folders/are/just
+
+ 3. 
+       **append a message to a file, without a newline character, so the output would be:
+	
+
+         first message
+
+	second message
+
+	YOU  can type:
+
+	echo "first message" > myTextFile.txt
+	echo "second message" >> myTextFile.txt
+
